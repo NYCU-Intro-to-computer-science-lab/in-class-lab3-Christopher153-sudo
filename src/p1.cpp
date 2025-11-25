@@ -6,14 +6,14 @@ using namespace std;
 long long factorial(int n)
 {
     if (n == 0)
-        return 1; // Base case
+        return 1;
     return n * factorial(n - 1);
 }
 
 long long sum(int n)
 {
     if (n == 0)
-        return 0; // Base case
+        return 0;
     return n + sum(n - 1);
 }
 
